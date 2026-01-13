@@ -28,9 +28,7 @@
 buildPythonPackage rec {
   pname = "python-miio";
   version = "0.5.12";
-  format = "pyproject";
-
-  disabled = pythonOlder "3.7";
+  pyproject = true;
 
   src = fetchPypi {
     inherit pname version;

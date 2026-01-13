@@ -606,17 +606,6 @@
     githubId = 50264672;
     name = "Adam Freeth";
   };
-  adamperkowski = {
-    name = "Adam Perkowski";
-    email = "me@adamperkowski.dev";
-    matrix = "@adam:matrix.system72.dev";
-    github = "koibtw";
-    githubId = 75480869;
-    keys = [
-      { fingerprint = "00F6 1623 FB56 BC5B B709  4E63 4CE6 C117 2DF6 BE79"; }
-      { fingerprint = "5A53 0832 DA91 20B0 CA57  DDB6 7CBD B58E CF1D 3478"; }
-    ];
-  };
   adamt = {
     email = "mail@adamtulinius.dk";
     github = "adamtulinius";
@@ -2325,6 +2314,12 @@
     githubId = 29058;
     name = "Mikalai Seva";
   };
+  asamonik = {
+    email = "signup-nixpkgs@asamonik.at";
+    github = "asamonik";
+    githubId = 49288593;
+    name = "Andreas Samonik";
+  };
   asappia = {
     email = "asappia@gmail.com";
     github = "asappia";
@@ -2813,14 +2808,6 @@
     github = "Azd325";
     githubId = 426541;
     name = "Tim Kleinschmidt";
-  };
-  azey7f = {
-    email = "me@azey.net";
-    github = "azey7f";
-    githubId = 41077433;
-    name = "azey";
-    # assuming my nameservers are up: gpg --auto-key-locate clear,nodefault,cert,dane --locate-keys me@azey.net
-    keys = [ { fingerprint = "2CCB 3403 43FE 8A2B 91CE  7F75 F94F 4A71 C5C2 1E8F"; } ];
   };
   azuwis = {
     email = "azuwis@gmail.com";
@@ -7002,13 +6989,6 @@
     githubId = 974130;
     name = "David Pätzel";
   };
-  dpausp = {
-    email = "dpausp@posteo.de";
-    github = "dpausp";
-    githubId = 1965950;
-    name = "Tobias Stenzel";
-    keys = [ { fingerprint = "4749 0887 CF3B 85A1 6355  C671 78C7 DD40 DF23 FB16"; } ];
-  };
   dpc = {
     email = "dpc@dpc.pw";
     github = "dpc";
@@ -7537,12 +7517,6 @@
     github = "eeedean";
     githubId = 8173116;
     name = "Dean Eckert";
-  };
-  eelco = {
-    email = "edolstra+nixpkgs@gmail.com";
-    github = "edolstra";
-    githubId = 1148549;
-    name = "Eelco Dolstra";
   };
   ehegnes = {
     email = "eric.hegnes@gmail.com";
@@ -9420,13 +9394,6 @@
     githubId = 34658064;
     name = "Grace Dinh";
   };
-  genericnerdyusername = {
-    name = "GenericNerdyUsername";
-    email = "genericnerdyusername@proton.me";
-    github = "GenericNerdyUsername";
-    githubId = 111183546;
-    keys = [ { fingerprint = "58CE D4BE 6B10 149E DA80  A990 2F48 6356 A4CB 30F3"; } ];
-  };
   genga898 = {
     email = "genga898@gmail.com";
     github = "genga898";
@@ -9857,12 +9824,6 @@
     github = "graham33";
     githubId = 10908649;
     name = "Graham Bennett";
-  };
-  grahamc = {
-    email = "graham@grahamc.com";
-    github = "grahamc";
-    githubId = 76716;
-    name = "Graham Christensen";
   };
   grahamnorris = {
     email = "oss@grahamjnorris.com";
@@ -11630,6 +11591,13 @@
     github = "ja1den";
     githubId = 49811314;
     keys = [ { fingerprint = "CC36 4CF4 32DD 443F 27FC  033C 3475 AA20 D72F 6A93"; } ];
+  };
+  jaanonim = {
+    name = "Jaanonim";
+    email = "mat8mro@gmail.com";
+    github = "jaanonim";
+    githubId = 28810058;
+    keys = [ { fingerprint = "5C4A 273F 5F11 3DF7 ECDF  0AD7 933A F32D 3ABD 5CAF"; } ];
   };
   jab = {
     name = "Joshua Bronson";
@@ -14032,6 +14000,17 @@
     githubId = 67888720;
     name = "Kira";
   };
+  koi = {
+    name = "koi";
+    email = "me@koi.rip";
+    matrix = "@koi:system72.dev";
+    github = "koibtw";
+    githubId = 75480869;
+    keys = [
+      { fingerprint = "00F6 1623 FB56 BC5B B709  4E63 4CE6 C117 2DF6 BE79"; }
+      { fingerprint = "5A53 0832 DA91 20B0 CA57  DDB6 7CBD B58E CF1D 3478"; }
+    ];
+  };
   kolaente = {
     email = "k@knt.li";
     github = "kolaente";
@@ -15873,6 +15852,14 @@
     githubId = 38541651;
     name = "maeve";
   };
+  maevii = {
+    email = "me@maevi.net";
+    github = "maevii";
+    githubId = 41077433;
+    name = "Maevi";
+    # assuming my nameservers are up: gpg --auto-key-locate clear,nodefault,cert,dane --locate-keys me@maevi.net
+    keys = [ { fingerprint = "A176 4D41 E826 A6E5 A5A1  8231 7670 F0F0 C946 12F4"; } ];
+  };
   mafo = {
     email = "Marc.Fontaine@gmx.de";
     github = "MarcFontaine";
@@ -17630,12 +17617,6 @@
       }
     ];
   };
-  mockersf = {
-    email = "francois.mockers@vleue.com";
-    github = "mockersf";
-    githubId = 8672791;
-    name = "François Mockers";
-  };
   modderme123 = {
     email = "modderme123@gmail.com";
     github = "milomg";
@@ -18239,7 +18220,7 @@
   nadiaholmquist = {
     name = "Nadia Holmquist Pedersen";
     email = "nadia@nhp.sh";
-    matrix = "@nhp:matrix.org";
+    matrix = "@nadia:nhp.sh";
     github = "nadiaholmquist";
     githubId = 893884;
   };
@@ -19316,12 +19297,6 @@
     github = "nthorne";
     githubId = 1839979;
     name = "Niklas Thörne";
-  };
-  NthTensor = {
-    email = "miles.silberlingcook@gmail.com";
-    github = "NthTensor";
-    githubId = 16138381;
-    name = "Miles Silberling-Cook";
   };
   nudelsalat = {
     email = "nudelsalat@clouz.de";
@@ -22710,12 +22685,6 @@
     githubId = 53882428;
     name = "Erik Rodriguez";
   };
-  roelvandijk = {
-    email = "roel@lambdacube.nl";
-    github = "roelvandijk";
-    githubId = 710906;
-    name = "Roel van Dijk";
-  };
   rogarb = {
     email = "rogarb@rgarbage.fr";
     github = "rogarb";
@@ -23790,6 +23759,12 @@
     githubId = 212597;
     name = "Otto Sabart";
     keys = [ { fingerprint = "0AF6 4C3B 1F12 14B3 8C8C  5786 1FA2 DBE6 7438 7CC3"; } ];
+  };
+  sebimarkgraf = {
+    email = "sebastian-markgraf@t-online.de";
+    github = "sebimarkgraf";
+    githubId = 24530526;
+    name = "Sebastian Mossburger";
   };
   sebrut = {
     email = "kontakt@sebastian-rutofski.de";
@@ -26216,6 +26191,12 @@
     github = "thedavidmeister";
     githubId = 629710;
     name = "David Meister";
+  };
+  theeasternfurry = {
+    email = "theeasternfurry@outlook.com";
+    github = "theeasternfurry";
+    githubId = 221808896;
+    name = "theeasternfurry";
   };
   thefenriswolf = {
     email = "stefan.rohrbacher97@gmail.com";
@@ -29023,7 +29004,7 @@
     githubId = 102890144;
   };
   yiyu = {
-    email = "yiyuzhou19@gmail.com";
+    email = "yiyu@yiyuzhou.io";
     name = "Yiyu Zhou";
     github = "yzhou216";
     githubId = 50000936;
